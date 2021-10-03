@@ -15,7 +15,7 @@ const Main = () => {
             setToDoItem(data)
         }
             )
-    }, [])
+    }, [setToDoItem, setToDos])
 
     return (
         <div className="todo mt-5 pt-2 ">

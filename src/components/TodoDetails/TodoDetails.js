@@ -11,7 +11,7 @@ const TodoDetails = () => {
         fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
         .then(res => res.json())
         .then(data => setTodoDetails(data))
-    }, [])
+    }, [id])
     const handleBack = () => {
         history.push('/main')
     }

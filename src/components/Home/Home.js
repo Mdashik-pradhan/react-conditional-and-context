@@ -4,7 +4,6 @@ import Main from '../Main/Main';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import TodoDetails from '../TodoDetails/TodoDetails';
-import NotFound from '../NotFound/NotFound';
 import './Home.css'
 import {
   BrowserRouter as Router,
