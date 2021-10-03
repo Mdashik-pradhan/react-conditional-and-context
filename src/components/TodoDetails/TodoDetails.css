@@ -1,0 +1,14 @@
+.details {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.back-btn {
+    background-color: #ffd900;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

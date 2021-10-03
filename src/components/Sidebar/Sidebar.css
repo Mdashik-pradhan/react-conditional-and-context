@@ -1,0 +1,43 @@
+.sidebar-container {
+    width: 200px;
+    padding: 10px;
+    height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+     width: 200px;
+     padding: 20px;
+     height: 100vh;
+     background-color: rgb(0, 93, 105);
+}
+
+.sidebar i {
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: -12px;
+    margin-left: 90%;
+    cursor: pointer;
+}
+
+.navItem li {
+    list-style: none;
+    width: 100%;
+}
+
+
+
+.navItem a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.navItem a:hover {
+    padding-right: 100px;
+    background-color: rgb(255, 81, 0);
+}
+
